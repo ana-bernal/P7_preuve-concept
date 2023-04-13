@@ -15,4 +15,5 @@
 
 ## Notebooks
 [using SAM with prompts](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/predictor_example.ipynb)
+
 [automatically generating masks](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/automatic_mask_generator_example.ipynb)
