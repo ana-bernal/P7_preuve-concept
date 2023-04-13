@@ -24,7 +24,7 @@ Ci dessous les articles dont je vais me servir
 |---|---|---|---|
 |**[1]**| article de recherche | [Segment Anything](https://arxiv.org/abs/2304.02643) | 05-04-2023 |
 |**[2]**| article de recherche | [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566) | 2021 | 
-|**[3]**| article de blog | [Introduction to Image Segmentation with K-Means clustering](https://www.kdnuggets.com/2**019**/08/introduction-image-segmentation-k-means-clustering.html) | 09-08-2019 | 
+|**[3]**| article de blog | [Introduction to Image Segmentation with K-Means clustering](https://www.kdnuggets.com/2019/08/introduction-image-segmentation-k-means-clustering.html) | 09-08-2019 | 
 |**[4]**| article de blog |[Introducing Segment Anything: Working toward the first foundation model for image s**egm**entation](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/) | 05-04-2023 | 
 |**[5]**| article de recherche| [Reviving Iterative Training with Mask Guidance for Interactive Segmentation](https://arxiv.org/abs/2102.06583) | 12-02-2021 | 
 ## Citations (articles)
