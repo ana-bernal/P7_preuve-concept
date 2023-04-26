@@ -1,19 +1,26 @@
-# Projet preuve de concept
+# Projet preuve de concept 🐟
 
-[[`Paper`](https://ai.facebook.com/research/publications/segment-anything/)] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)] [[`Dataset`](https://segment-anything.com/dataset/index.html)] [[`Blog`](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)] [[`BibTeX`](#citing-segment-anything)]
+Ce dépôt contient les fichiers de mon projet pour étudier et expérimenter avec le modèle de segmentation SAM. Le modèle SAM est un modèle qui vient d'être publié (voir [1]) par des chercheurs de Meta AI. C'est un modèle de segmentation d'image interactif : il suffit d'un clic de l'utilisateur pour sélectionner un objet sur une image.
 
-[pdf](https://scontent-cdg4-2.xx.fbcdn.net/v/t39.2365-6/10000000_900554171201033_1602411987825904100_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=Tl4lO57_yg0AX-K02ds&_nc_ht=scontent-cdg4-2.xx&oh=00_AfDF7z-zuX77ZHEhc4oFg6dKE0-Pa-5GqzQ6zvpqPnQmvw&oe=643AEFA7)
+Pour ce projet, j'ai étudié l'article [1]. Pour cela, j'ai dû me contextualiser dans le domaine de la segmentation d'image avec des réseaux de neurones. Ensuite j'ai cherché un ensemble de données différentes à celles évaluées dans l'article (voir [2]), et sur lesquelles j'ai appliqué l'algorithme. Pour évaluer les performances, j'ai cherché et expérimenté avec un modèle précédent comme baseline.
 
-[git](https://github.com/facebookresearch/segment-anything)
+Les fichiers principaux sont: 
 
-[blog](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)
-
-[Image Segmentation: The Basics and 5 Key Techniques ](https://datagen.tech/guides/image-annotation/image-segmentation/)
-
-[2021 image segmentation model hugging face](https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512)
+1. `plan_de_travail.md` : Le plan prévisionnel de travail fait au début du projet.
+2. `segmentation_experience.ipynb` : Le code pour ce projet.
+3. `rapport.pdf` : Le rapport écrit pour ce projet.
+4. `slides.pdf` (à venir) : slides pour soutenance du projet.
 
 
 ## Notebooks
-[using SAM with prompts](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/predictor_example.ipynb)
+Partie du code des examples suivants ont été utilisé dans le code de ce projet:
 
-[automatically generating masks](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/automatic_mask_generator_example.ipynb)
+* [Using SAM with prompts](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/predictor_example.ipynb)
+
+* [Automatically generating masks](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/automatic_mask_generator_example.ipynb)
+
+## Références
+
+[1] Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., ... & Girshick, R. (2023). Segment anything. arXiv preprint [arXiv:2304.02643](https://arxiv.org/abs/2304.02643).
+
+[2] [A Large Scale Fish Dataset](https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset)
